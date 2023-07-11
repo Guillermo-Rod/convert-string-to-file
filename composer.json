@@ -1,0 +1,26 @@
+{
+    "name": "guillermo-rod/convert-string-to-file",
+    "description": "Converts rich text to file (html, css, js, etc..), useful when you needs print rich text but on secure mode.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GuillermoRod\\StringToFile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guillermo Rodriguez",
+            "email": "guillermo.rodriguez.dev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GuillermoRod\\StringToFile\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
